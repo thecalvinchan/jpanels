@@ -1,3 +1,3 @@
 jPanels is a lightweight mosaic plugin that is built on jQuery. It takes 13 photos and displays them as an interactive mosaic. The plugin randomly chooses a maximum of 4 photos to "feature" by displaying it larger than the other photos. This option can be turned off by commenting out a few lines of javascript. It is highly customizable to the user's preference. This is a work in progress, and updates will be pushed routinely.
 
-The source files can be found <a href="https://github.com/thecalvinchan/jpanels">here</a>.
+A demo can be found <a href="http://www.thecalvinchan.com/sandbox/jpanels">here</a>.
