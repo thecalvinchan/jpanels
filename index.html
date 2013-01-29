@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>jPanels Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <link type="text/css" rel="stylesheet" href="jpanels.css"/>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">jPanels Demo</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#about">Credits</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <h1>jPanels Demo</h1>
+      <div class="jumbotron" id="panelsContainer">
+		<div class="largecontainer" id="containerNW">
+			<div><img src="media/vignette_unactive.png" class="vignette_unactive"/><img src="media/sampleimages/1.jpg" class="thumb"/><h3>The Widowmaker</h3><img src="media/vignette.png" class="vignette"/></div>
+			<div><img src="media/vignette_unactive.png" class="vignette_unactive"/><img src="media/sampleimages/2.jpg" class="thumb"/><h3>Mountain Trail</h3><img src="media/vignette.png" class="vignette"/></div>
+			<div><img src="media/vignette_unactive.png" class="vignette_unactive"/><img src="media/sampleimages/3.jpg" class="thumb"/><h3>Tree of Light</h3><img src="media/vignette.png" class="vignette"/></div>
+			<div><img src="media/vignette_unactive.png" class="vignette_unactive"/><img src="media/sampleimages/4.jpg" class="thumb"/><h3>Walk to Infinity</h3><img src="media/vignette.png" class="vignette"/></div>
+		</div>
+		<div class="largecontainer" id="containerNE">
+			<div><img src="media/vignette_unactive.png" class="vignette_unactive"/><img src="media/sampleimages/5.jpg" class="thumb"/><h3>Rain Drop</h3><img src="media/vignette.png" class="vignette"/></div>
+			<div><img src="media/vignette_unactive.png" class="vignette_unactive"/><img src="media/sampleimages/6.jpg" class="thumb"/><h3>Orders of Infinity</h3><img src="media/vignette.png" class="vignette"/></div>
+			<div><img src="media/vignette_unactive.png" class="vignette_unactive"/><img src="media/sampleimages/7.jpg" class="thumb"/><h3>Minimal</h3><img src="media/vignette.png" class="vignette"/></div>
+			<div><img src="media/vignette_unactive.png" class="vignette_unactive"/><img src="media/sampleimages/8.jpg" class="thumb"/><h3>Motion</h3><img src="media/vignette.png" class="vignette"/></div>
+		</div>
+		<div class="largecontainer" id="containerSW">
+			<div><img src="media/vignette_unactive.png" class="vignette_unactive"/><img src="media/sampleimages/9.jpg" class="thumb"/><h3>Arabian Night</h3><img src="media/vignette.png" class="vignette"/></div>
+			<div><img src="media/vignette_unactive.png" class="vignette_unactive"/><img src="media/sampleimages/10.jpg" class="thumb"/><h3>Fishing Boats</h3><img src="media/vignette.png" class="vignette"/></div>
+			<div><img src="media/vignette_unactive.png" class="vignette_unactive"/><img src="media/sampleimages/11.jpg" class="thumb"/><h3>Extremely Loud and Incredibly Close</h3><img src="media/vignette.png" class="vignette"/></div>
+		</div>
+		<div class="largecontainer" id="containerSE">
+			<div><img src="media/vignette_unactive.png" class="vignette_unactive"/><img src="media/sampleimages/12.jpg" class="thumb"/><h3>The tree that refused to believe it was winter</h3><img src="media/vignette.png" class="vignette"/></div>
+			<div><img src="media/vignette_unactive.png" class="vignette_unactive"/><img src="media/sampleimages/13.jpg" class="thumb"/><h3>At the lights</h3><img src="media/vignette.png" class="vignette"/></div>
+		</div>
+		<div id="panelsTitle">
+			<h1>jPanels Demo</h1>
+		</div>
+
+      </div>
+      <hr/>
+      <h2 id="about">About</h2>
+      <p>jPanels is a lightweight mosaic plugin that is built on jQuery. It takes 13 photos and displays them as an interactive mosaic. The plugin randomly chooses a maximum of 4 photos to "feature" by displaying it larger than the other photos. This option can be turned off by commenting out a few lines of javascript. It is highly customizable to the user's preference. This is a work in progress, and updates will be pushed routinely.</p>
+
+      <p>The source files can be found <a href="https://github.com/thecalvinchan/jpanels">here</a>.</p>
+
+      <h2 id="credits">Credits</h2>
+      <p>The sample photoset was obtained through <a href="http://thefuturebuzz.com/2008/10/13/stunning-images-flickr-creative-commons/"><em>50 Stunning Images From Flickr Under Creative Commons</em></a> from <a href="http://thefuturebuzz.com/2008/10/13/stunning-images-flickr-creative-commons/">thefuturebuzz.com</a>.</p>
+      <p>Photographer Credits:</p>
+      <ul>
+      	<li><a href="http://flickr.com/photos/aussiegall/2104652119/"><em>The Widowmaker</em> by aussiegall </a></li>
+      	<li><a href="http://flickr.com/photos/a4gpa/195354385/"><em>Mountain Trail</em> by a4gpa</a></li>
+      	<li><a href="http://flickr.com/photos/jphilipson/2100627902/"><em>Tree of Light</em> by jphilipson</a></li>
+      	<li><a href="http://flickr.com/photos/lightknight/628680053/"><em>Walk to Infinity</em> by lightknight</a></li>
+      	<li><a href="http://flickr.com/photos/play4smee/2167606164/"><em>Rain Drop</em> by play4smee</a></li>
+      	<li><a href="http://flickr.com/photos/zachstern/2718157853/"><em>Orders of Infinity</em> by zachstern</a></li>
+      	<li><a href="http://flickr.com/photos/flyzipper/504647242/"><em>Minimal</em> by flyzipper</a></li>
+      	<li><a href="http://flickr.com/photos/kompott/491104255/"><em>Motion</em> by kompott</a></li>
+      	<li><a href="http://flickr.com/photos/asam/436122446/"><em>Arabian Night</em> by creativesam</a></li>
+      	<li><a href="http://flickr.com/photos/smb_flickr/"><em>ishing Boats</em> by santimb</a></li>
+      	<li><a href="http://flickr.com/photos/matt_hintsa/2355216100/"><em>Extremely Loud and Incredibly Close</em> by matt.hintsa</a></li>
+      	<li><a href="http://flickr.com/photos/ejpphoto/2165390581/"><em>The tree that refused to believe it was winter</em> by EJP_photo</a></li>
+      	<li><a href="http://flickr.com/photos/petecarr/475437514/"><em>At the lights</em> by petecarr</a></li>
+      </ul>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="jpanels.js"></script>
+
+  </body>
+</html>
